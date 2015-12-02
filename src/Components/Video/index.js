@@ -10,8 +10,8 @@ module.exports = () =>(
             <div className="foreground">
               <div className="intro-text">
                   <div className="intro-heading">ImpactON</div>
-                  <div className="intro-lead-in">La hackaton de SmartCities e Impacto Social</div>
-                  <a href="#descripcion" className="page-scroll btn btn-xl">Quiero Saber Más</a>
+                  <div className="intro-lead-in">"Para resolver problemas de todos queremos la voz de todos"</div>
+                  <a href="#descripcion" className="page-scroll btn btn-xl mt++++">Quiero Saber Más</a>
               </div>
             </div>
         </div>
