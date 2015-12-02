@@ -2,10 +2,12 @@ import React, { Component } from 'react';
 import { Navbar,NavItem,NavDropdown,MenuItem,Nav } from 'react-bootstrap';
 
 module.exports = () => (
-  <Navbar fixedTop={true}> 
+  <Navbar fixedTop={true}>
     <Navbar.Header>
       <Navbar.Brand>
-        <a href="#">ImpactON</a>
+        <a href="#">
+          <img src="/src/img/logos/impacton-logo.png"></img>
+        </a>
       </Navbar.Brand>
       <Navbar.Toggle />
     </Navbar.Header>

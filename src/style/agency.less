@@ -85,6 +85,7 @@ h1, h2, h3, h4, h5, h6 {
 	border-color: transparent;
 	.navbar-brand {
 		color: @brand-primary;
+		padding-top:8px;
 		.script-font;
         &:hover,
         &:focus,
@@ -92,6 +93,9 @@ h1, h2, h3, h4, h5, h6 {
         &.active {
         	color: darken(@brand-primary, 10%);
         }
+		img {
+			max-width: 33px;
+		}
 	}
 	.navbar-collapse {
 		border-color: fade(white, 2%);
@@ -165,6 +169,7 @@ header {
 	background-repeat: none;
 	background-attachment: scroll;
 	background-position: center center;
+	overflow: hidden;
 	.background-cover;
 	text-align: center;
 	color: white;
@@ -191,7 +196,7 @@ header {
 @media(min-width:768px) {
 	header {
 		.intro-text {
-			padding-top: 300px;
+			padding-top: 250px;
 			padding-bottom: 200px;
 			.intro-lead-in {
 				.serif-font;
@@ -221,7 +226,7 @@ section {
 		margin-bottom: 15px;
     }
     h3.section-subheading {
-		font-size: 16px;
+		font-size: 18px;
 		.serif-font;
 		text-transform: none;
 		font-style: italic;
@@ -725,3 +730,59 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: @brand-primary;
 }
+
+.pt{padding-top: 5px}
+.pt\+{padding-top: 10px}
+.pt\+\+{padding-top: 15px}
+.pt\+\+\+{padding-top: 20px}
+.pt\+\+\+\+{padding-top: 25px}
+
+.pb{padding-bottom: 5px}
+.pb\+{padding-bottom: 10px}
+.pb\+\+{padding-bottom: 15px}
+.pb\+\+\+{padding-bottom: 20px}
+.pb\+\+\+\+{padding-bottom: 25px}
+
+.pl{padding-left: 5px}
+.pl\+{padding-left: 10px}
+.pl\+\+{padding-left: 15px}
+.pl\+\+\+{padding-left: 20px}
+.pl\+\+\+\+{padding-left: 25px}
+
+.pr{padding-right: 5px}
+.pr\+{padding-right: 10px}
+.pr\+\+{padding-right: 15px}
+.pr\+\+\+{padding-right: 20px}
+.pr\+\+\+\+{padding-right: 25px}
+
+
+.mt{margin-top: 5px}
+.mt\+{margin-top: 10px}
+.mt\+\+{margin-top: 15px}
+.mt\+\+\+{margin-top: 20px}
+.mt\+\+\+\+{margin-top: 25px}
+
+.mb{margin-bottom: 5px}
+.mb\+{margin-bottom: 10px}
+.mb\+\+{margin-bottom: 15px}
+.mb\+\+\+{margin-bottom: 20px}
+.mb\+\+\+\+{margin-bottom: 25px}
+
+.ml{margin-left: 5px}
+.ml\+{margin-left: 10px}
+.ml\+\+{margin-left: 15px}
+.ml\+\+\+{margin-left: 20px}
+.ml\+\+\+\+{margin-left: 25px}
+
+.mr{margin-right: 5px}
+.mr\+{margin-right: 10px}
+.mr\+\+{margin-right: 15px}
+.mr\+\+\+{margin-right: 20px}
+.mr\+\+\+\+{margin-right: 25px}
+
+
+.mr{margin-right: 5px}
+.mr\+{margin-right: 10px}
+.mr\+\+{margin-right: 15px}
+.mr\+\+\+{margin-right: 20px}
+.mr\+\+\+\+{margin-right: 25px}
