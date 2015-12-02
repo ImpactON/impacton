@@ -6,7 +6,7 @@
     "start": "node server.js",
     "lint": "eslint src",
     "build":"rm -rf ./dist && node ./node_modules/webpack/bin/webpack.js -p --optimize-minimize --optimize-dedupe",
-    "test-build": "./node_modules/.bin/http-server",
+    "test-build": "./node_modules/.bin/http-server"
   },
   "repository": {
     "type": "git",
