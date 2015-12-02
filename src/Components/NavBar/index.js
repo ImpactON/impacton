@@ -6,7 +6,7 @@ module.exports = () => (
     <Navbar.Header>
       <Navbar.Brand>
         <a href="#">
-          <img src="/src/img/logos/impacton-logo.png"></img>
+          <img src="src/img/logos/impacton-logo.png"></img>
         </a>
       </Navbar.Brand>
       <Navbar.Toggle />

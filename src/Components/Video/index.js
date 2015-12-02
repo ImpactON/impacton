@@ -5,7 +5,7 @@ module.exports = () =>(
     <header>
         <div className="video-container">
             <video autoPlay poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" loop>
-              <source src="/src/vid/timelapse.mp4" type="video/mp4"/>
+              <source src="src/vid/timelapse.mp4" type="video/mp4"/>
             </video>
             <div className="foreground">
               <div className="intro-text">
